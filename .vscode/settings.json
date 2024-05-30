@@ -1,0 +1,15 @@
+{
+  "files.autoSave": "afterDelay",
+  "workbench.startupEditor": "readme",
+  "workbench.tree.indent": 12,
+  "cucumber.features": [
+    "src/test/features/**/*.feature"
+  ],
+  "cucumber.glue": [
+    "src/test/**/*.steps.ts"
+  ],
+  "cucumber.parameterTypes": [
+    { "name": "actor", "regexp": "[A-Z][a-z]+" },
+    { "name": "pronoun", "regexp": "he|she|they|his|her|their" }
+  ]
+}

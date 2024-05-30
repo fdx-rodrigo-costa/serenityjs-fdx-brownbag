@@ -1,0 +1,8 @@
+taskx:
+  users:
+    valid_1:
+      user: "rodrigo.costa@findex.com.au"
+      pass: "Vfaj7n!234567F"
+  paths:
+    home: "/"
+    bulk_create: "/bulk-create"
