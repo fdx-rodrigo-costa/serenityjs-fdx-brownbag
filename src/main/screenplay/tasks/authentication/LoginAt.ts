@@ -13,7 +13,7 @@ export class LoginAt extends Task {
     }
  
     performAs(actor: PerformsActivities & AnswerQuestions): Promise<void> {
-        const homeUrl = "/";
+        const homeUrl = "/v1/";
         let user = "standard_user";
         let pass = "secret_sauce";
 
